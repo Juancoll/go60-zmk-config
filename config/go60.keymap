@@ -179,7 +179,6 @@
             timeout-ms = <50>;
             key-positions = <14 15>;
             bindings = <&kp ESC>;
-            layers = <BASE>;
         };
 
         // D + F = Tab  (Go60 positions 27 + 28)
@@ -187,7 +186,6 @@
             timeout-ms = <50>;
             key-positions = <27 28>;
             bindings = <&kp TAB>;
-            layers = <BASE>;
         };
 
         // F + G = Caps Word  (Go60 positions 28 + 29)
@@ -195,7 +193,13 @@
             timeout-ms = <50>;
             key-positions = <28 29>;
             bindings = <&caps_word>;
-            layers = <BASE>;
+        };
+
+        // Z + X = Undo / Ctrl+Z  (Go60 positions 37 + 38)
+        combo_undo {
+            timeout-ms = <50>;
+            key-positions = <37 38>;
+            bindings = <&kp LC(Z)>;
         };
 
         // X + C = Cut / Ctrl+X  (Go60 positions 38 + 39)
@@ -203,7 +207,6 @@
             timeout-ms = <50>;
             key-positions = <38 39>;
             bindings = <&kp LC(X)>;
-            layers = <BASE>;
         };
 
         // C + V = Copy / Ctrl+C  (Go60 positions 39 + 40)
@@ -211,7 +214,6 @@
             timeout-ms = <50>;
             key-positions = <39 40>;
             bindings = <&kp LC(C)>;
-            layers = <BASE>;
         };
 
         // V + B = Paste / Ctrl+V  (Go60 positions 40 + 41)
@@ -219,7 +221,6 @@
             timeout-ms = <50>;
             key-positions = <40 41>;
             bindings = <&kp LC(V)>;
-            layers = <BASE>;
         };
 
         // J + K = Backspace  (Go60 positions 31 + 32)
@@ -227,7 +228,6 @@
             timeout-ms = <50>;
             key-positions = <31 32>;
             bindings = <&kp BSPC>;
-            layers = <BASE>;
         };
 
         // K + L = Delete  (Go60 positions 32 + 33)
@@ -235,7 +235,6 @@
             timeout-ms = <50>;
             key-positions = <32 33>;
             bindings = <&kp DEL>;
-            layers = <BASE>;
         };
     };
 
